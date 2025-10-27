@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/manifest.json"/>
+</head>
+<body>
+    <fieldset>
+        <legend>PouchDB Form</legend>
+
+        <p><input id="name" placeholder="Enter your name" /></p>
+        <p><input id="age" placeholder="Enter your age" /></p>
+        <p><input id="email" placeholder="Enter your email" /></p>
+        <p><button id="submit" type="button">Enviar</button></p>
+    </fieldset>
+
+    <!--<p><button id="btnList">Listar</button></p>-->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="tablePersonas">  
+        </tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@9.0.0/dist/pouchdb.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
