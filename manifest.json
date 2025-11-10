@@ -2,7 +2,7 @@
     "name": "PouchDB.io",
     "short_name": "PouchDB",
     "description": "Aplicación progresiva con PouchDB",
-    "start_url": "/miguelsotelo19.github.io/",
+    "start_url": "/miguelsotelo19.github.io/PouchDB.io/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#0d6efd",
