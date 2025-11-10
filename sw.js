@@ -8,7 +8,6 @@ const APP_SHELLS_ASSETS = [
     '/style.css',
     '/img/192.png',
     '/img/512.png',
-    '/style.css',
     '/manifest.json',
     'https://cdn.jsdelivr.net/npm/pouchdb@9.0.0/dist/pouchdb.min.js'
 ]
